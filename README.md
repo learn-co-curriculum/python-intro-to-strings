@@ -208,7 +208,6 @@ help(str)
      |      Return a capitalized version of S, i.e. make the first character
      |      have upper case and the rest lower case.
      |  
-...
 
 
 Ok, stop skimming.  
