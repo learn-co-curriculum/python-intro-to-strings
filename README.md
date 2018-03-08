@@ -1,7 +1,7 @@
 
 # Why use code
 
-## Let's go
+### Let's go
 
 To answer questions with data, we need to programming for two main skills: representing the world with data, and operating on that data.  Or in other words, we need our code to **be something** or **do something**.  Let's just worry about being for now, we can hold off the doing part for later.
 
@@ -10,7 +10,7 @@ To answer questions with data, we need to programming for two main skills: repre
 * Learning about methods that Python provides us
 * Learning how to discover new methods
 
-## Working with text
+### Working with text
 
 A lot of information in the world is in the form of text.  And if we want to capture this information, and operate on it we should become familiar with an entire datatype in Python dedicated to it: the string.
 
@@ -85,7 +85,7 @@ If you want, you can also use double quotes.
 
 
 
-## Changing data with built in methods
+### Changing data with built in methods
 
 The reason Python is so picky is because, once it knows we are working with a string, it gives us different functionality for operating on strings.  We call this functionality a function, or a method.
 
