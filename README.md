@@ -170,7 +170,7 @@ help('strings')
 
 
 
-The `help()` word with Python comes out of the box with the language, and is like an old school Alexa.  And just like Alexa, it often doesn't understand us.  Let's follow it's stern directions, and see what happens when we type in `help(str)`.
+The `help()` word with Python comes out of the box with the language, and is like an old school Alexa.  And just like Alexa, it often doesn't understand us.  Let's follow its stern directions, and see what happens when we type in `help(str)`.
 
 
 ```python
