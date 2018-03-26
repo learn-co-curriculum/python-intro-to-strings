@@ -68,8 +68,8 @@ For example, to initialize a string we cannot simply type letters.  Instead, we 
 ```
 
 
-      File "<ipython-input-35-cfe60ad2684c>", line 1
-        'Homer Simps'on
+      File "<ipython-input-5-b38f60fea49d>", line 1
+        'Homer Simps'on #input
                       ^
     SyntaxError: invalid syntax
 
@@ -91,7 +91,7 @@ If you want, you can also use double quotes.
 
 ## Changing data with built in methods
 
-Python is picky like this for a reason. Once it knows we are working with a string, it gives us different functionality for operating on strings.  We call this functionality a function, or a method.
+Python is picky like this for a reason. Once it knows we are working with a string, it gives us specific functionality for operating on strings.  We call this functionality a function, or a method.
 
 For example here is a method that works with a string (text), but does not work with a number.
 
@@ -113,7 +113,7 @@ For example here is a method that works with a string (text), but does not work 
 ```
 
 
-      File "<ipython-input-17-ade3a24a9923>", line 1
+      File "<ipython-input-8-8ab5bf46fc2d>", line 1
         42.upper()
                ^
     SyntaxError: invalid syntax
@@ -126,7 +126,7 @@ We can operate on a datatype with the following format:
 
    * [DATATYPE] [DOT] [METHOD NAME] [PARENTHESES]
 
-Here's another example. And as you can see, it follows the same format.
+Here are some examples, which we can see follow the same format:
 
 
 ```python
@@ -152,7 +152,7 @@ Here's another example. And as you can see, it follows the same format.
 
 
 
-So as you can see, by following the format of data-dot-method name-parentheses we can begin to operate on our data.
+As you can see, by following the format of data-dot-method name-parentheses we can begin to operate on our data.
 
 ###  Discovering new methods
 
@@ -163,13 +163,11 @@ You may be starting to worry about there being too many methods to keep track of
 help('strings')
 ```
 
-    No Python documentation found for 'strings'.
-    Use help() to get the interactive help utility.
-    Use help(str) for help on the str class.
+    no Python documentation found for 'strings'
     
 
 
-The `help()` word with Python comes out of the box with the language, and is like an old school Alexa.  And just like Alexa, it often doesn't understand us.  Let's follow it's stern directions, and see what happens when we type in `help(str)`.
+The `help()` word with Python comes out of the box with the language and is like an old school Alexa.  Just like an Alexa, it often doesn't understand us.  Let's follow its stern directions, and see what happens when we type in `help(str)`.
 
 
 ```python
@@ -593,6 +591,6 @@ Feel free to look at [other common string operations here.](https://docs.python.
 
 ### Summary
 
-In this lesson, we learned about our first datatype in Python: strings.  A string is just text.  And we indicate to Python that we are writing a string by surrounding our content with quotation marks.  Once we do this, we can operate on this string by calling methods like `upper` or `endswith`.  We identified a general pattern for calling methods on datatypes: 'datatype-method name-dot-parentheses'.
+In this lesson, we learned about our first datatype in Python: strings.  A string is just text.  We indicate to Python that we are writing a string by surrounding our content with quotation marks.  Once we do this, we can operate on this string by calling methods like `upper` or `endswith`.  We identified a general pattern for calling methods on datatypes: 'datatype-method name-dot-parentheses'.
 
 The second thing we learned was different mechanisms for learning about methods.  We saw the importance of guessing and experimentation, and how doing so can give us error messages, which provide clues. We also saw how to ask questions about a datatype by calling 'help' followed by the datatype name like `help(str)`.  Finally, we saw we can ask Google.  This mechanism of exploration is a skill we'll build up over time and this course will provide guidance and practice on along the way.
