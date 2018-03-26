@@ -572,7 +572,7 @@ Here is one more.  Just ask Google.  For example, look what happens when we ask 
 
 ![](./ask-google.png)
 
-A great link with a detailed answer.
+[A great link with a detailed answer.](https://stackoverflow.com/a/1549644)
 
 ![](./stack-overflow.png)
 
@@ -591,6 +591,8 @@ Then we try this new method out ourselves, to see if this user on StackOverFlow 
 
 
 And our work is done.
+
+Feel free to look at [other common string operations here.](https://docs.python.org/2/library/string.html)
 
 ### Summary
 
