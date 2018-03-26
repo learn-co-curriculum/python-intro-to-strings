@@ -529,6 +529,8 @@ help(str)
     
 
 
+**Note:** *In order to exit out of `help()` in your terminal, you can press the letter `q`.*
+
 Holy cow that's a lot of words.  If we scroll down to the word capitalize, things begin to make more sense.  For example, for capitalize, this is what it says
 
 
