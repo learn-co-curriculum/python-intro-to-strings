@@ -14,7 +14,7 @@ Much of our digital information is in the form of text.  Song lyrics and emails,
 
 ## Working with text
 
-A lot of information in the world is in the form of text.  And if we want to capture this information, and operate on it we should become familiar with an entire datatype in Python dedicated to it: the string.
+A lot of information in the world is in the form of text. If we want to capture this information and operate on it, we should become familiar with an entire datatype in Python dedicated to it: the string.
 
 **Note:** *If you are viewing this in markdown format (files that end in .md), the first gray box will show the **input** and what follows is the **output**. The rest of the lab(s) will follow this pattern, but we've marked the input for the first few examples with a comment.* 
 
@@ -91,7 +91,7 @@ If you want, you can also use double quotes.
 
 ## Changing data with built in methods
 
-The reason Python is so picky is because, once it knows we are working with a string, it gives us different functionality for operating on strings.  We call this functionality a function, or a method.
+Python is picky like this for a reason. Once it knows we are working with a string, it gives us different functionality for operating on strings.  We call this functionality a function, or a method.
 
 For example here is a method that works with a string (text), but does not work with a number.
 
@@ -124,10 +124,7 @@ Yep.  Bad news bears.
 
 We can operate on a datatype with the following format: 
 
-* datatype
-* dot 
-* method name
-* parentheses
+   * [DATATYPE] [DOT] [METHOD NAME] [PARENTHESES]
 
 Here's another example. And as you can see, it follows the same format.
 
