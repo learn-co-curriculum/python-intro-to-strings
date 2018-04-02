@@ -565,7 +565,7 @@ In this lesson, we already saw a few of them.
 * help(str): We saw a nice way to learn about new methods, then we took a guess to test our understanding
 * Following a pattern: We started with a simple method like calling upper, took a moment to break this down into a pattern, and then tried this pattern again to call other methods 
 
-Here is one more.  Just ask Google.  For example, look what happens when we ask Google about capitalization.
+Here is one more method of discovery:  just ask Google.  For example, look what happens when we ask Google about capitalization.
 
 ![](https://learn-verified.s3.amazonaws.com/data-science-assets/ask-google.png)
 
@@ -593,6 +593,6 @@ Feel free to look at [other common string operations here.](https://docs.python.
 
 ### Summary
 
-In this lesson, we learned about our first datatype in Python: strings.  A string is just text. We indicate to Python that we are writing a string by surrounding our content with quotation marks. Once we do this, we can operate on this string by calling methods like `upper` or `endswith`. We identified a general pattern for calling methods on datatypes: 'datatype-method name-dot-parentheses'.
+In this lesson, we learned about our first datatype in Python: the string.  A string is just text. We indicate to Python that we are writing a string by surrounding our content with quotation marks. Once we do this, we can operate on this string by calling methods like `upper` or `endswith`. We identified a general pattern for calling methods on datatypes: 'datatype-dot-method name-parentheses'.
 
 The second thing we learned was different mechanisms for learning about methods.  We saw the importance of guessing and experimentation, and how doing so can give us error messages, which provide clues. We also saw how to ask questions about a datatype by calling 'help' followed by the datatype name like `help(str)`.  Finally, we saw we can ask Google.  This mechanism of exploration is a skill we'll build up over time and this course will provide guidance and practice on along the way.
