@@ -1,2 +1,8 @@
 languages:
   - python
+  
+tags:
+  - jupyter
+  - python
+
+resources: 0
