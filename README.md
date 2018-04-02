@@ -75,7 +75,7 @@ For example, to initialize a string we cannot simply type letters.  Instead, we 
 
 
 
-If you want, you can also use double quotes.
+If we want, we can also use double quotes. Double quotes and single quotes can be used interchangeably in Python, however, it is important that we stay consistent. So, if we decide to use double quotes for regular text and single quotes for keys in our dictionaries, we should keep this pattern throughout our code (e.g. `{'key': "my regular text"}`).
 
 
 ```python
