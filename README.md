@@ -91,7 +91,7 @@ If we want, we can also use double quotes.
 
 
 
-**Note:** *double quotes and single quotes can be used interchangeably in Python, however, it is important that we stay consistent. So, if we decide to use double quotes for regular text and single quotes for keys in our dictionaries, we should keep this pattern throughout our code. (e.g. `{'key': "my regular text"}`)*
+**Note:** *double quotes and single quotes can be used interchangeably in Python, however, it is important that we stay consistent.
 
 ## Changing data with built in methods
 
