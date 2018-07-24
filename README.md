@@ -5,18 +5,18 @@
 
 As you have seen from the **Instant Data Science** lesson, programming is a powerful tool for answering questions about data.  It allows us to collect, clean up and format our data and then perform calculations on that data.  
 
-Much of our digital information is in the form of text -- song lyrics and emails, for example. To clean up and format that text with Python, we need to become familiar with our first type of data, the string.
+Much of our digital information is in the form of text, for exmaple song lyrics and emails. To clean up and format that text with Python, we need to become familiar with our first type of data, the string.
 
 ### Objectives
 * Working with our first data type, strings
-* Learning about string methods that Python provides us
+* Learning about the string methods that Python provides
 * Learning how to discover new methods
 
 ## Introduction to strings
 
-A lot of information in the world is in the form of text. If we want to capture this information and operate on it, we should become familiar with an entire datatype in Python dedicated to it: the string.
+A lot of information in the world is in the form of text. If we want to capture this information and operate on it, we should become familiar with the datatype in Python dedicated to it: the string.
 
-**Note:** *If you are viewing this in markdown format (files that end in .md), the first gray box will show the **input** and what follows is the **output**. The rest of the lab(s) will follow this pattern, but we've marked the input for the first few examples with the comment `'# input'`.*
+**Note:** The first gray box will show the **input** and what follows is the **output**. The rest of the lab(s) will follow this pattern, but we've marked the input for the first few examples with the comment `'# input'`.
 
 
 ```python
@@ -46,7 +46,7 @@ Here is another datatype in Python, a number.
 
 
 
-We can discover the type of a piece of data by calling, or executing, the `type` method.  By calling or executing a method, we mean running the method so that it executes the code within it.  We'll learn more about these soon enough!
+We can discover the type of a piece of data by calling, or executing, the `type` method.  By calling or executing a method, we mean running the method so that it executes the code within it.
 
 Let's look at an example below:
 
@@ -64,7 +64,7 @@ type('Homer Simpson') #input
 
 We need to pay attention to what type of data we are working with because they operate differently.
 
-For example, to initialize a string we cannot simply type letters.  Instead, we need to be very explicit with Python and tell Python it is about to see some text.  We do this by surrounding our text with quotes.  If we don't do that, or end our quotation marks too early, Python will throw us an error.
+For example, to create a new string (to "initialize" a string) we cannot simply type letters.  Instead, we need to be very explicit with Python and tell Python it is about to see some text.  We do this by surrounding our text with quotes.  If we don't do that, or end our quotation marks too early, Python will throw us an error.
 
 
 ```python
@@ -93,11 +93,11 @@ If we want, we can also use double quotes.
 
 
 
-**Note:** double quotes and single quotes can be used interchangeably in Python; however, it is important that we stay consistent.
+**Note:** double quotes and single quotes can be used interchangeably in Python; however, it is a good idea to be consistent.
 
 ## Changing data with built in methods
 
-Python is picky like this for a reason. Once it knows we are working with a string, it gives us specific functionality for operating on strings.  We call this functionality a function, or a method.
+Python is picky like this for a reason. Once it knows we are working with a string, it gives us specific functionality for operating on strings.  We call this functionality "functions", or "methods".
 
 For example here is a method that works with a string (text), but does not work with a number.
 
@@ -158,7 +158,7 @@ Here are some examples, which we can see follow the same format:
 
 
 
-As you can see, by following the format of data-dot-method name-parentheses we can begin to operate on our data.
+As you can see, by following the format of data-dot-method name-parentheses we can begin to work with our data.
 
 ###  Discovering new methods
 
