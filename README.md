@@ -5,18 +5,18 @@
 
 As you have seen from the **Instant Data Science** lesson, programming is a powerful tool for answering questions about data.  It allows us to collect, clean up and format our data and then perform calculations on that data.  
 
-Much of our digital information is in the form of text, for exmaple song lyrics and emails. To clean up and format that text with Python, we need to become familiar with our first type of data, the string.
+Much of our digital information is in the form of text -- song lyrics and emails, for example. To clean up and format that text with Python, we need to become familiar with our first type of data, the string. 
 
 ### Objectives
 * Working with our first data type, strings
-* Learning about the string methods that Python provides
+* Learning about string methods that Python provides us
 * Learning how to discover new methods
 
 ## Introduction to strings
 
-A lot of information in the world is in the form of text. If we want to capture this information and operate on it, we should become familiar with the datatype in Python dedicated to it: the string.
+A lot of information in the world is in the form of text. If we want to capture this information and operate on it, we should become familiar with an entire datatype in Python dedicated to it: the string.
 
-**Note:** The first gray box will show the **input** and what follows is the **output**. The rest of the lab(s) will follow this pattern, but we've marked the input for the first few examples with the comment `'# input'`.
+**Note:** *If you are viewing this in markdown format (files that end in .md), the first gray box will show the **input** and what follows is the **output**. The rest of the lab(s) will follow this pattern, but we've marked the input for the first few examples with the comment `'# input'`.* 
 
 
 ```python
@@ -46,7 +46,7 @@ Here is another datatype in Python, a number.
 
 
 
-We can discover the type of a piece of data by calling, or executing, the `type` method.  By calling or executing a method, we mean running the method so that it executes the code within it.
+We can discover the type of a piece of data by calling, or executing, the `type` method.  By calling or executing a method, we mean running the method so that it executes the code within it.  We'll learn more about these soon enough!
 
 Let's look at an example below:
 
@@ -64,7 +64,7 @@ type('Homer Simpson') #input
 
 We need to pay attention to what type of data we are working with because they operate differently.
 
-For example, to create a new string (to "initialize" a string) we cannot simply type letters.  Instead, we need to be very explicit with Python and tell Python it is about to see some text.  We do this by surrounding our text with quotes.  If we don't do that, or end our quotation marks too early, Python will throw us an error.
+For example, to initialize a string we cannot simply type letters.  Instead, we need to be very explicit with Python and tell Python it is about to see some text.  We do this by surrounding our text with quotes.  If we don't do that, or end our quotation marks too early, Python will throw us an error.
 
 
 ```python
@@ -93,11 +93,11 @@ If we want, we can also use double quotes.
 
 
 
-**Note:** double quotes and single quotes can be used interchangeably in Python; however, it is a good idea to be consistent.
+**Note:** double quotes and single quotes can be used interchangeably in Python; however, it is important that we stay consistent.
 
 ## Changing data with built in methods
 
-Python is picky like this for a reason. Once it knows we are working with a string, it gives us specific functionality for operating on strings.  We call this functionality "functions", or "methods".
+Python is picky like this for a reason. Once it knows we are working with a string, it gives us specific functionality for operating on strings.  We call this functionality a function, or a method.
 
 For example here is a method that works with a string (text), but does not work with a number.
 
@@ -128,7 +128,7 @@ For example here is a method that works with a string (text), but does not work 
 
 Yep.  Bad news bears.
 
-We can operate on a datatype with the following format:
+We can operate on a datatype with the following format: 
 
    * [INSTANCE OF A DATATYPE] [DOT] [METHOD NAME] [PARENTHESES]
 
@@ -158,7 +158,7 @@ Here are some examples, which we can see follow the same format:
 
 
 
-As you can see, by following the format of data-dot-method name-parentheses we can begin to work with our data.
+As you can see, by following the format of data-dot-method name-parentheses we can begin to operate on our data.
 
 ###  Discovering new methods
 
@@ -170,7 +170,7 @@ help('strings')
 ```
 
     no Python documentation found for 'strings'
-
+    
 
 
 The `help()` word with Python comes out of the box with the language and is like an old school Alexa.  Just like an Alexa, it often doesn't understand us.  Let's follow its stern directions, and see what happens when we type in `help(str)`.
@@ -246,7 +246,7 @@ class str(basestring)
  |      
  |      Return a copy of the string S with only its first character
  |      capitalized.
-
+ 
 
         ... A Lot More Code ...
 
@@ -279,14 +279,14 @@ Our next step is to use our formula of datatype-dot-method name-parentheses, and
 
 Excellent.  Just like we thought.
 
-### Tips going forward
+### Tips going forward 
 
 That's really it for this lesson on strings, and it's easy to feel a little unsatisfied with just a few methods on the datatype.  What's more important with programming is mechanisms of discovery and experimentation beyond just memorizing a list of features.
 
 In this lesson, we already saw a few of them.  
 * Guess: We just tried something and looked to the error message for clues as to what to do next.
 * help(str): We saw a nice way to learn about new methods, then we took a guess to test our understanding
-* Following a pattern: We started with a simple method like calling upper, took a moment to break this down into a pattern, and then tried this pattern again to call other methods
+* Following a pattern: We started with a simple method like calling upper, took a moment to break this down into a pattern, and then tried this pattern again to call other methods 
 
 Here is one more method of discovery:  just ask Google.  For example, look what happens when we ask Google about capitalization.
 
