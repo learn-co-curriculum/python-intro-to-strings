@@ -72,7 +72,7 @@ For example, to initialize a string we cannot simply type letters.  Instead, we 
 ```
 
 
-      File "<ipython-input-5-b38f60fea49d>", line 1
+      File "<ipython-input-4-b38f60fea49d>", line 1
         'Homer Simps'on #input
                       ^
     SyntaxError: invalid syntax
@@ -119,7 +119,7 @@ For example here is a method that works with a string (text), but does not work 
 ```
 
 
-      File "<ipython-input-8-8ab5bf46fc2d>", line 1
+      File "<ipython-input-7-8ab5bf46fc2d>", line 1
         42.upper()
                ^
     SyntaxError: invalid syntax
@@ -158,6 +158,18 @@ Here are some examples, which we can see follow the same format:
 
 
 
+
+```python
+"Homer Simpson".replace('o', '0')
+```
+
+
+
+
+    'H0mer Simps0n'
+
+
+
 As you can see, by following the format of data-dot-method name-parentheses we can begin to operate on our data.
 
 ###  Discovering new methods
@@ -169,7 +181,9 @@ You may be starting to worry about there being too many methods to keep track of
 help('strings')
 ```
 
-    no Python documentation found for 'strings'
+    No Python documentation found for 'strings'.
+    Use help() to get the interactive help utility.
+    Use help(str) for help on the str class.
     
 
 
